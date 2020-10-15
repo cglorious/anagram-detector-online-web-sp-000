@@ -8,7 +8,7 @@ attr_accessor :match
     @word = word
   end
 
-  def match
+  def match(array)
     #compares @word to elements in array
   end
 
