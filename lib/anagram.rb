@@ -12,6 +12,7 @@ attr_accessor :match
     anagram_match = []
     array.each do |e|
       if e.split("").sort == @word.split("").sort
+        anagram_match >> e
       #return array index
     end
   end
