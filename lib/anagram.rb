@@ -13,13 +13,13 @@ attr_accessor :match
       #element_array = e.split("").sort
       #word_array = @word.split("").sort
 
-      element_array == word_array
-        e
+      #element_array == word_array
+      #  e
       #else
         #array.delete(e)
-      end
-    end
-    array
+      #end
+    #end
+    #array
   end
 
 end
