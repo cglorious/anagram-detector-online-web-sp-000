@@ -18,7 +18,6 @@ attr_accessor :match
         e.delete
       end
       array
-      #return array index
     end
   end
 
