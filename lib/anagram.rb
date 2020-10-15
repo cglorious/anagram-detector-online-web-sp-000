@@ -14,8 +14,8 @@ attr_accessor :match
       word_array = @word.split("").sort
       if element_array == word_array
         e #array.delete(e)
-      #else
-        #e
+      else
+        array.delete(e)
       end
     end
     array
