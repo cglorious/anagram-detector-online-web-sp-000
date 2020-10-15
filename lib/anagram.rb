@@ -12,10 +12,10 @@ attr_accessor :match
     array.select do |e|
       element_array = e.split("").sort
       word_array = @word.split("").sort
-      if element_array != word_array
-        array.delete(e)
-      else
-        e
+      if element_array == word_array
+        e #array.delete(e)
+      #else
+        #e
       end
     end
     array
