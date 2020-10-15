@@ -11,6 +11,7 @@ attr_accessor :match
   def match(array)
     array.each do |e|
       return e if e.split("").sort == @word.split("").sort
+    end
   end
 
 end
