@@ -13,7 +13,7 @@ attr_accessor :match
       element_array = e.split("").sort
       word_array = @word.split("").sort
       if element_array == word_array
-        e #array.delete(e)
+        e
       else
         array.delete(e)
       end
