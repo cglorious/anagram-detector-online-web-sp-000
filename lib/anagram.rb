@@ -15,7 +15,7 @@ attr_accessor :match
       if element == @word.split("").sort
         e
       else
-        
+        e.delete
       end
       #return array index
     end
