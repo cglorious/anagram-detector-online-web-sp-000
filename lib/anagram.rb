@@ -9,10 +9,11 @@ attr_accessor :match
   end
 
   def match(array)
-    array.select do |e|
-      element_array = e.split("").sort
-      word_array = @word.split("").sort
-      if element_array == word_array
+    array.select! {|e| e.split("").sort == @word.split("").sort}
+      #element_array = e.split("").sort
+      #word_array = @word.split("").sort
+
+      element_array == word_array
         e
       #else
         #array.delete(e)
