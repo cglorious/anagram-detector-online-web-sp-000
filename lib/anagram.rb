@@ -9,11 +9,11 @@ attr_accessor :match
   end
 
   def match(array)
-    anagram_match = []
+    #anagram_match = []
     array.map do |e|
       if e.split("").sort == @word.split("").sort
-        anagram_match >> e
-        anagram_match
+        #anagram_match >> e
+        #anagram_match
       else
         e
       end
