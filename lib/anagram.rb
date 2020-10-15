@@ -9,7 +9,8 @@ attr_accessor :match
   end
 
   def match(array)
-    array.each {|e| return e if e.sort == @word.sort}
+    array.each do |e|
+      return e if e.split("").sort == @word.split("").sort
   end
 
 end
