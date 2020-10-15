@@ -14,6 +14,8 @@ attr_accessor :match
       if e.split("").sort == @word.split("").sort
         anagram_match >> e
         anagram_match
+      else
+        e
       end
       #return array index
     end
