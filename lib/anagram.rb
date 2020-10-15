@@ -11,7 +11,7 @@ attr_accessor :match
   def match(array)
     array.each do |e|
       if e.sort == @word.sort
-        return @word
+        return e
       end
     end
   end
