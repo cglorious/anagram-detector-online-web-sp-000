@@ -11,7 +11,8 @@ attr_accessor :match
   def match(array)
     #anagram_match = []
     array.map do |e|
-      if e.split("").sort == @word.split("").sort
+      element = e.split("").sort
+      if element == @word.split("").sort
         #anagram_match >> e
         #anagram_match
       else
