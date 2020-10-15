@@ -13,10 +13,9 @@ attr_accessor :match
     array.map do |e|
       element = e.split("").sort
       if element == @word.split("").sort
-        #anagram_match >> e
-        #anagram_match
-      else
         e
+      else
+        
       end
       #return array index
     end
