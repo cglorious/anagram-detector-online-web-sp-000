@@ -9,7 +9,11 @@ attr_accessor :match
   end
 
   def match(array)
-    #compares @word to elements in array
+    array.each do |e|
+      return @word if e.sort == @word.sort
+    end
+    #if @word length equals element in array
+    #sort elements, compare using ==
   end
 
 end
