@@ -9,7 +9,7 @@ attr_accessor :match
   end
 
   def match
-    
+    #compares @word to elements in array
   end
 
 end
