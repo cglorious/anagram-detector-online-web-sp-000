@@ -9,7 +9,6 @@ attr_accessor :match
   end
 
   def match(array)
-    #anagram_match = []
     array.map do |e|
       element = e.split("").sort
       if element == @word.split("").sort
