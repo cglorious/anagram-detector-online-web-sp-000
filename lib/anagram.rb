@@ -17,8 +17,8 @@ attr_accessor :match
       else
         e.delete
       end
-      array
     end
+    array
   end
 
 end
